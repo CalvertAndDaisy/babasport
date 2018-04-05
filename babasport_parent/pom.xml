@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cn.hangzou</groupId>
+  <artifactId>babasport_parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>babasport_common</module>
+  	<module>babasport_pojo</module>
+  	<module>babasport_dao</module>
+  	<module>babasport_interface</module>
+  	<module>babasport_service_product</module>
+  	<module>babasport_service_solr</module>
+  	<module>babasport_service_cms</module>
+  	<module>babasport_service_buyer</module>
+  	<module>babasport_login</module>
+  	<module>babasport_console</module>
+  	<module>babasport_portal</module>
+  </modules>
+</project>
